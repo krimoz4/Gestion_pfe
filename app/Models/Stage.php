@@ -9,7 +9,6 @@ class Stage extends Model
 {
     use HasFactory;
 
-    // 1. On autorise les nouveaux champs (si ce n'est pas déjà fait)
     protected $fillable = [
         'titre', 
         'description', 
